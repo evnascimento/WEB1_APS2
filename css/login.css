@@ -1,0 +1,31 @@
+body {
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+#bordaMenu {
+    margin-top: 3%;
+	margin-left:37%;
+	margin-right:37%;
+    border-radius: 10px;
+	background-color: rgba(235,199,158,0.8)
+	
+	
+}
+
+#bordaComentario{
+	
+	margin-top: 3%;
+    border-radius: 10px;
+	background-color: rgba(192,217,217,0.6)
+
+}
+
+#Lconta{
+	
+	margin-left:5%;
+	font-size: 81%;
+	
+}

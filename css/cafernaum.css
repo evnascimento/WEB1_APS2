@@ -1,0 +1,113 @@
+.row{
+	margin-left: 7%;
+	margin-right: 7%;
+	
+	
+}
+
+
+#elenco {
+	
+	text-align:left;
+	margin-left: 7%;
+	font-family: Arial;
+	
+		
+}
+#filmeN {
+	margin-left: 47%;
+	
+}
+
+.logo1 {
+
+	width: 100%;
+	height:50;
+
+
+}
+.logo2 {
+
+	width: 100%;
+	height: ;
+
+}
+
+
+/*Video*/
+.trailer{
+	
+	width: 45%; 
+	height:15%;
+}
+/*tema*/
+.tema{
+	
+	
+	font-size: 50px;
+	font-family: Arial;
+	text-align: left;
+	margin-top: 3%;
+	margin-left:7%;
+		
+}
+
+#sinopse h2{
+	text-align:left;
+	margin-left: 7%;
+	font-family: Arial;
+	
+}
+
+
+.cena{
+	margin-left:15%;
+	margin-right: 15%;
+	
+}
+
+#sinopse p{
+	font-family: Arial;
+	font-size: 20px;
+	text-align:left;
+	margin-left: 7%;
+	margin-right: 7%;
+	
+	
+}
+
+/*Tamanho da margem imagem*/
+
+
+
+
+.vfinal {
+	padding: 0 6px;
+	margin: auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	  <title>Login</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/login.css">
+	  
+      
+    
+	  <style>
+	    body{
+		background-color: #FFFAFA;
+	  }
+	  
+		/* Remove the navbar's default margin-bottom and rounded borders */ 
+		.navbar {
+		  margin-bottom: 0;
+		  border-radius: 0;
+		}
+	
+
+	  /* Hide the carousel text when the screen is less than 600 pixels wide */
+	  @media (max-width: 750px) {
+		#bordaMenu {
+			margin-top: 3%;
+			margin-left:1%;
+			margin-right:1%
+		}
+	  }
+	  </style>
+	  
+	</head>
+    <body style="background-image: url('imagem/cineLogin.jpg');"> 
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <img src="imagem/hamburguer.png" height="25px" width="25px">       
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" id="diretores"  data-toggle="dropdown">Diretores</a>
+                            <ul class="dropdown-menu " aria-labelledby="diretores">
+                                <li class="dropdown-item" ><a href="diretores.html#filmesD">Damián Szifron</a></li>
+                                <li class="dropdown-item" ><a href="diretores.html#filmeN">Nadine Labaki</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dropdown-toggle" id="filmes"  data-toggle="dropdown">Filmes</a>
+                            <ul class="dropdown-menu " aria-labelledby="filmes">
+                                <li class="dropdown-item" ><a href="relatosS.html">Relatos Selvagens</a></li>
+                                <li class="dropdown-item" ><a href="cafernaum.html">Cafernaum</a></li>
+                                <li class="dropdown-item" ><a href="comentarios.html">Comentários</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="analiseC.html">Crítica</a></li>
+                        <li><a href="mapas.html">Mapas</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="login.html"><span class="glyphicon glyphicon-log-in"></span>  Acessar Conta</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+        <!-- Início de layout da página de Login --> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-md-offset-4 " id="bordaMenu">
+                    <h3 class="text-center login-title">Acesse com a sua conta</h3>
+                    <div class="account-wall">
+						<img class="profile-img" style="margin-left:30%" src="imagem/acesso.png"alt="">
+						<form class="form-signin" name="frmLogin" action="diretores.html" method="get">
+
+							<div class="form-group">
+								<input class="form-control" type="text" pattern="^[A-Za-z]{6}$" required title='Deve ter 6 caracteres alfabéticos' placeholder="Login">
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" placeholder="Password" pattern="^[a-z]{5}[A-Z]{1}\d{1}$" required title='Ex.: aasssA3'>
+								
+							</div>  
+							<div class="form-group">          
+								<button type="submit" class="btn btn-primary col-md-12" name="loginAcesso" onclick="validateLogin();">Entrar</button>
+							</div>
+							<div class="form-group col-md-12">
+								<label class="checkbox pull-left">
+								<input type="checkbox" value="remember-me"> Lembrar-me
+								</label>
+							</div>    
+							
+								<div class="form-group col-md-12">
+								<a href="cadastro.html" id="Lconta" class="new-account"><b style="color: black;">Ainda não sou usuário:</b> <b>CRIAR CONTA</b></a>
+							  </div>
+						</form>
+					</div> 
+				</div>
+            </div>
+        </div>
+            <!-- Fim de layout da página de Login --> 
+       
+
+            
+       
+    </body>
+</html>

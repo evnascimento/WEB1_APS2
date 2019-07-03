@@ -1,0 +1,52 @@
+#sinopse h2{
+	text-align:left;
+	margin-left: 20%;
+	font-family: Arial;
+}
+
+#sinopse p{
+	font-family: Arial;
+	font-size: 20px;
+	text-align:left;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/*Tamanho da margem imagem*/
+
+#espaco{
+	
+	margin-top: 5%;
+	
+}
+
+.vfinal {
+	padding: 0 6px;
+	margin: auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

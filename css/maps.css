@@ -1,0 +1,36 @@
+
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+#bordaMap{
+    
+
+    margin-left:17%;
+    margin-right: 17%;
+}
+
+#bordaMenu{
+    margin-top: 3%;
+	margin-left:25%;
+	margin-right:25%;
+    border-radius: 10px;
+	background-color: rgba(235,199,158,0.8)
+	
+	
+}
+#espaco{
+
+    margin-top: 10%;
+
+}
